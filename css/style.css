@@ -5,6 +5,7 @@
 }
 
 
+
 /* universal style */
 .container{
     width: 80%;
@@ -110,6 +111,13 @@ h3{
     font-weight: bold;
 }
 
+/* #navbar .container{
+    position: fixed;
+    background-color: #ececec;
+    width: 100%;
+} */
+
+
 /* food search */
 
 .food-search{
@@ -127,6 +135,8 @@ h3{
     border: none;
     border-radius: 5px;
 }
+
+/* categories section start here */
 
 .categories{
     padding: 4% 0;

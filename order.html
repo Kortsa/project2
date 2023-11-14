@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/order.css">
+    <title>Order Page</title>
+</head>
+<body>
+       <!-- navbar section starts -->
+<section id="navbar">
+    <div class="container">
+        <div class="logo">
+            <a href="#"><img src="./images/My_Logo.png" alt="" class="img-responsive"></a>
+        </div>
+
+        <div class="menu text-right">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="foods.html">Foods</a></li>
+                <li><a href="order.html">Order</a></li>
+            </ul>
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
+</section>
+<!-- navbar section end -->
+
+<section class="food-search">
+    <div class="container">
+        <h2 class="text-center text-white">
+            Fill this form to confirm your order
+        </h2>
+
+        <form action="#" class="order">
+            <fieldset>
+                <legend>Selected Food</legend>
+                <div class="food-menu-img">
+                    <img src="./images/banku.jpg" alt="" class="img-responsive">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h3>Banku</h3>
+                    <p class="food-price">GHC 67.99</p>
+                    <div class="order-label">
+                        Quantity
+                        
+                    </div>
+                    <input 
+                    type="number" 
+                    name="qty" 
+                    class="input-responsive" 
+                    value="1"
+                    required
+                    >
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Delivery Details</legend>
+
+                <label for="" class="order-label">Full name</label> 
+                <!-- <br> -->
+                <input type="text" name="full-name" placeholder="Kortsaaaa ...">
+                <br>
+
+                <label for="" class="order-label">Phone number</label> 
+                <!-- <br> -->
+                <input type="text" name="full-name" placeholder="000000000">
+                <br>
+
+                <label for="" class="order-label">Email</label> 
+                <!-- <br> -->
+                <input type="email" name="full-name" placeholder="me@gmail.com">
+
+                <br>
+
+                <label for="" class="order-label">Address</label>
+                <textarea name="address" id="" cols="30" rows="10"></textarea>
+                <br>
+
+                <input type="submit" value="Confirm Order" class="btn btn-primary">
+
+            </fieldset>
+        </form>
+
+    </div>
+</section>
+
+</body>
+</html>
