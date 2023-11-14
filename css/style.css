@@ -18,6 +18,7 @@
 
 .img-curve{
     border-radius: 15px;
+    /* height: 500px; */
 }
 
 .text-right{
@@ -77,7 +78,18 @@ h2{
 h3{
     font-size: 1.5rem;
 }
+
 /* come back here later */
+
+.float-container{
+    position: relative;
+}
+
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
 
 .logo{
     width: 15%;
@@ -184,4 +196,9 @@ h3{
 .social ul li {
     padding: 1%;
     display: inline;
+}
+
+.footer{
+    margin-bottom: 10px;
+    background-color: #ececec;
 }
